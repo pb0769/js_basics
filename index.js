@@ -57,3 +57,21 @@
 
    //----------------------------------------------------------
 
+    /*---- 2. Arrays----*/
+
+     /* ARRAYS are used to store multiple values in a single variable. 
+       They are also used to store a list of items. They are ordered and indexed. 
+       They can contain duplicate values. 
+       They can contain different data types. 
+       They are mutable (can be changed).*/
+
+     //ARRAY are OBJECTS in JS.
+
+     let selectedColors = ['red' , 'blue' , 'yellow'];      //way to define an array
+     selectedColors[3] = 'black';                           //expanding the array
+     console.log(selectedColors);                              
+     console.log(selectedColors[0]);              //to print a particular element  
+     console.log(selectedColors.length);          //to print length of array        
+     console.log(selectedColors[3].length);       //to print length of particular element in array  
+        
+   //----------------------------------------------------------
