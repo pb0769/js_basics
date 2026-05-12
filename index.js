@@ -75,3 +75,28 @@
      console.log(selectedColors[3].length);       //to print length of particular element in array  
         
    //----------------------------------------------------------
+
+    /*---- 3. Functions----*/
+     
+     //Performing a Task-
+         function popup() {
+         console.log('Hello Everyone!!');
+         }
+
+         popup();
+     
+
+         function greet(name , country) {
+         console.log('Hey ' + name + ', Good Morning\nYou live in ' + country);
+         }
+
+         greet('Parth' , 'India');
+
+     //Calculating a value    
+         function area(length , breadth) {
+            return length * breadth
+         }
+
+         console.log(area(20 , 30));
+
+   //----------------------------------------------------------
