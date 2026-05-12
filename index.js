@@ -15,6 +15,7 @@
 
  let age = 18;
  console.log(age);
+
 /*----------------------------------------------------------------------------------------*/
 
 //----Constants----
@@ -23,5 +24,14 @@
 
  const gradYear = 2029;
  console.log(gradYear);
+
+/*----------------------------------------------------------------------------------------*/
+
+//------Primitive Data Types------
+ let clgName = 'IITJ'; // String Literal
+ let yearEstb = 2008; // Number Literal
+ let isApproved = false; // Boolean Literal
+ let loc = undefined;
+ let selectedColor = null;
 
 /*----------------------------------------------------------------------------------------*/
