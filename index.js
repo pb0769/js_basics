@@ -35,3 +35,25 @@
  let selectedColor = null;
 
 /*----------------------------------------------------------------------------------------*/
+
+/*------Reference Types------
+ Types: OBJECTS ; ARRAYS ; FUNCTIONS  */
+
+    /*---- 1. Objects----*/
+
+     let person = {name: 'Parth', age: 18};       //way to define an object
+     
+     // Dot Notation
+     person.name = 'John';
+
+     // Bracket Notation
+     person ['name'] = 'Mary';
+        //or
+     let selection = 'name';
+     person [selection] = 'Mary';
+
+     console.log(person.name);      //to print a specific property of an object
+     console.log(person);           //to print complete object
+
+   //----------------------------------------------------------
+
